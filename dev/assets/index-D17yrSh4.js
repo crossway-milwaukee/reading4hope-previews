@@ -1,1 +1,0 @@
-(function(){const P=document.createElement("link").relList;if(P&&P.supports&&P.supports("modulepreload"))return;/*FULL_FILE_FROM_/workspace/dist/assets/index-D17yrSh4.js*/}
