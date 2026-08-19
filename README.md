@@ -1,2 +1,3 @@
-# reading4hope-previews
-Public GitHub Pages previews for Reading4Hope pull requests. Production site stays at https://crossway-milwaukee.github.io/reading4hope/
+Isolated previews. Production is unchanged at https://crossway-milwaukee.github.io/reading4hope/.
+
+- [PR #1 preview](https://crossway-milwaukee.github.io/reading4hope-previews/pr-1/)
