@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- preview b56b3dd 2026-08-21T03:45Z pr-21 pen-design-system complete-vite-bundle -->
+<!-- preview 3dfb16c 2026-08-21T03:49Z pr-21 pen-design-system reed-nits complete-vite-bundle -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,8 +12,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/reading4hope-previews/pr-21/assets/index-BhK1T9Lw.js"></script>
-    <link rel="stylesheet" crossorigin href="/reading4hope-previews/pr-21/assets/index-dLgIxyGr.css">
+    <script>
+      (function () {
+        var light = "#F7F5F1";
+        var dark = "#0B0C10";
+        var mode = "dark";
+        try {
+          var stored = localStorage.getItem("rfh-theme");
+          if (stored === "light" || stored === "dark") mode = stored;
+          else if (window.matchMedia("(prefers-color-scheme: light)").matches) mode = "light";
+        } catch (e) { /* ignore */ }
+        document.documentElement.setAttribute("data-theme", mode);
+        document.documentElement.style.background = mode === "light" ? light : dark;
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute("content", mode === "light" ? light : dark);
+      })();
+    </script>
+    <script type="module" crossorigin src="/reading4hope-previews/pr-21/assets/index-Ch9PMkku.js"></script>
+    <link rel="stylesheet" crossorigin href="/reading4hope-previews/pr-21/assets/index-DVfzuU57.css">
   </head>
   <body>
     <div id="root"></div>
