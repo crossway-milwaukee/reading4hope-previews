@@ -1,0 +1,37 @@
+<!doctype html>
+<!-- preview 0f8eb158 2026-08-29T21:30Z pr-34 cw-37-42-production-ux complete-vite-bundle -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#0B0C10" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>Reading For Hope</title>
+    <link rel="icon" type="image/svg+xml" href="/reading4hope-previews/pr-34/icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&display=swap" rel="stylesheet" />
+    <script>
+      (function () {
+        var light = "#F7F5F1";
+        var dark = "#0B0C10";
+        var mode = "dark";
+        try {
+          var stored = localStorage.getItem("rfh-theme");
+          if (stored === "light" || stored === "dark") mode = stored;
+          else if (window.matchMedia("(prefers-color-scheme: light)").matches) mode = "light";
+        } catch (e) { /* ignore */ }
+        document.documentElement.setAttribute("data-theme", mode);
+        document.documentElement.style.background = mode === "light" ? light : dark;
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute("content", mode === "light" ? light : dark);
+      })();
+    </script>
+    <script type="module" crossorigin src="/reading4hope-previews/pr-34/assets/index-Cr-t0tFg.js"></script>
+    <link rel="stylesheet" crossorigin href="/reading4hope-previews/pr-34/assets/index-DVfzuU57.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

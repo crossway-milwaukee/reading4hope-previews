@@ -1,6 +1,7 @@
 Isolated previews. Production is unchanged at https://crossway-milwaukee.github.io/reading4hope/.
 
 - [**dev preview**](https://crossway-milwaukee.github.io/reading4hope-previews/dev/) — durable current WIP (start flow from #29)
+- [PR #34 preview](https://crossway-milwaukee.github.io/reading4hope-previews/pr-34/) — CW-37–42 production UX
 - [PR #30 preview](https://crossway-milwaukee.github.io/reading4hope-previews/pr-30/) — full-border textarea on question reflections
 - [PR #29 preview](https://crossway-milwaukee.github.io/reading4hope-previews/pr-29/) — start flow: pick a passage, suggest Depth or Breadth
 - [PR #28 preview](https://crossway-milwaukee.github.io/reading4hope-previews/pr-28/) — CW-14 whole chapter highlight
