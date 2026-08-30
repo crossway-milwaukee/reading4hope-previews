@@ -1,6 +1,7 @@
 Isolated previews. Production is unchanged at https://crossway-milwaukee.github.io/reading4hope/.
 
 - [**dev preview**](https://crossway-milwaukee.github.io/reading4hope-previews/dev/) — durable current WIP (start flow from #29)
+- [PR #37 preview](https://crossway-milwaukee.github.io/reading4hope-previews/pr-37/) — CW-45 Safari helper
 - [PR #36 preview](https://crossway-milwaukee.github.io/reading4hope-previews/pr-36/) — CW-44 PWA install helper
 - [PR #34 preview](https://crossway-milwaukee.github.io/reading4hope-previews/pr-34/) — CW-37–42 production UX
 - [PR #30 preview](https://crossway-milwaukee.github.io/reading4hope-previews/pr-30/) — full-border textarea on question reflections
