@@ -32,7 +32,27 @@
         if (meta) meta.setAttribute("content", mode === "light" ? light : dark);
       })();
     </script>
-    <script type="module" crossorigin src="/reading4hope-previews/pr-40/assets/index-C1UQUB9M.js"></script>
+    <script>
+      (function () {
+        var base = "/reading4hope-previews/pr-40/assets/index-C1UQUB9M.";
+        Promise.all([1, 2, 3].map(function (n) {
+          return fetch(base + n + ".js", { credentials: "same-origin" }).then(function (r) {
+            if (!r.ok) throw new Error("Failed to load bundle part " + n + ": " + r.status);
+            return r.text();
+          });
+        })).then(function (parts) {
+          var blob = new Blob([parts.join("")], { type: "text/javascript" });
+          var url = URL.createObjectURL(blob);
+          var s = document.createElement("script");
+          s.type = "module";
+          s.crossOrigin = "anonymous";
+          s.src = url;
+          document.head.appendChild(s);
+        }).catch(function (err) {
+          console.error(err);
+        });
+      })();
+    </script>
     <link rel="stylesheet" crossorigin href="/reading4hope-previews/pr-40/assets/index-DVfzuU57.css">
   </head>
   <body>
